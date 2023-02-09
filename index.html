@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/styles.css">
+    <link rel="stylesheet" href="/style/colors.css">
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/index.html"><img class="senaclogo" src="/img/logo-senac1.png" alt="senaclogoo"></a>
+            <nav>
+                <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="https://www.mg.senac.br/Paginas/default.aspx" class="btnsite" target="_blank">Site Ofical</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div id="div1">
+            <h1>Cadastre-se para nossos cursos</h1>
+            <p>
+                Oferecemos vários cursos livres, de ensino técnico, MBA e Aprendizagem Comercial, englobando áreas diversas, como Comércio, Beleza, Gestão, Imagem Pessoal e Saúde.
+            </p>
+            <form action="https://api-aula-senac.onrender.com/" method="post">
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="E-mail" name="email">
+                <button type="submit" value="Enviar >" class="btn-input">Enviar</button>
+            </form>
+        </div>
+        <div id="div2">
+            <img  class="senacimg" src="/img/senac-patos1.jpg" alt="unidade patos de minas">
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <footer>
+        Criado por Dvorakx @2023
+    </footer>
+</body>
+</html>
